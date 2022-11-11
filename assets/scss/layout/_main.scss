@@ -1,3 +1,34 @@
+.home {
+	& h1.large {
+		font-family: $brand--font-reg;
+		font-size: 10rem;
+		margin-bottom: $margin--small;
+	}
+	& h3 {
+		margin-bottom: $margin--general;
+		& span {
+			line-height: 1.8;
+			padding: 5px 0;
+			font-size: 2.2rem;
+			color: white;
+			background: $color--primary;
+		}
+	}
+	& p {
+		font-size: 1.4rem;
+		line-height: 1.45;
+		&.skills {
+			font-family: $brand--font-semi;
+		}
+		&:last-child {
+			margin-bottom: 30px;
+		}
+	}
+	& h4 {
+		margin-bottom: 1px;
+	}
+}
+
 .org--profile-header {
 	& .container-fluid {
 		padding: 0;
