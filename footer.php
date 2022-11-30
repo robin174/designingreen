@@ -10,8 +10,12 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="mol__unit-whoweare">
-							<p><?php the_field('f_con_text', 'option'); ?></p>
-						 	<p class="atm__copyright"><?php the_field('f_con_copyright', 'option'); ?></p>
+							<blockquote>&ldquo;<?php the_field('f_con_quote', 'option'); ?>&rdquo;
+								<cite><?php the_field('f_con_quote_cite', 'option'); ?>
+									<span class="context"><?php the_field('f_con_quote_cite_con', 'option'); ?></span>
+								</cite>
+							</blockquote>
+						 	<p class="atm__copyright">&copy;&nbsp;<?php echo date('Y'); ?> <?php the_field('f_con_copyright', 'option'); ?></p>
 						</div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-3">

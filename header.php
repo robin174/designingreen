@@ -42,6 +42,7 @@
 					</button>
 					*/ ?>
 
+					<?php /*
 					<div class="d-md-none">
 						<button class="btn btn-primary atmButtonNav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
 					</div>
@@ -55,6 +56,7 @@
 							<?php designingreen_nav(); ?>
 					    </div>
 					</div>
+					*/ ?>
 					
 					<?php /*
 						1. Set wrapper 

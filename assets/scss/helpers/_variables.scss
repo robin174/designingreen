@@ -10,7 +10,14 @@ $color--highlight-light: $color--secondary;
 $color--highlight-dark: $color--secondary;
 
 $box--shadow-light: 0 0 10px rgba(0,0,0,0.3); 
-$box--shadow-dark: 0 0 10px rgba(0,0,0,0.6); 
+$box--shadow-dark: 0 0 10px rgba(0,0,0,0.6);
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$media-mobile: 576px;
+$media-tablet: 768px;
+$media-desktop: 992px;
+$media-wide: 1200px;
 
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -34,8 +41,8 @@ $brand--font-reg: 'AvertaStdPE-Regular', Arial, Helvetica, sans-serif;
 $brand--font-semi: 'AvertaStdPE-Semibold', Arial, Helvetica, sans-serif;
 $brand--font-bold: 'AvertaStdPE-Bold', Arial, Helvetica, sans-serif;
 
-/* Variables: Font Sizes
-- - - - - - - - - - - - - - - - - - */
+/* Variable Font Sizes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Body font size. By default 16px, based on 16px as 'root em' */
 $brand--font-size: 1rem;
 

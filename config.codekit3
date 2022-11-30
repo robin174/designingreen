@@ -98,6 +98,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/favicon@4x.png" : {
+      "ft" : 32768,
+      "iS" : 585,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicon@4x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/header-test.png" : {
       "ft" : 32768,
       "iS" : 862506,

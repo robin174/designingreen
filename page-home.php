@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<section class="mol--page-main" style="padding: 100px 0;">
+<section class="templ--page-main">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-4">
@@ -14,7 +14,7 @@ get_header(); ?>
 					<img class="mw-100" src="<?php the_field('homepage_logo');?>">
 				</figure>
 			</div>
-			<div class="col-12 col-md-8">
+			<div class="col-12 col-md-7">
 				<h1 class="large"><?php the_field('homepage_large'); ?></h1>
 				<div>
 					<h3><span><?php the_field('homepage_introduction'); ?></span></h3>
@@ -23,7 +23,7 @@ get_header(); ?>
 				<div>
 					<h4 class="ut--uc">Expertise</h4>
 					<!-- repeater: expertise -->
-					<p class="skills">Code&nbsp;•&nbsp;Innovation&nbsp;•&nbsp;Technology</p>
+					<p class="skills">Design&nbsp;•&nbsp;Innovation&nbsp;•&nbsp;Technology</p>
 				</div>
 				<div>
 					<h4 class="ut--uc">Services</h4>

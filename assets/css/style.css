@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* Colors
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import url("//hello.myfonts.net/count/3e7d84");
@@ -16,8 +18,8 @@
   font-family: 'AvertaStdPE-Bold';
   src: url("fonts/AvertaStdPEBold/font.woff2") format("woff2"), url("../fonts/AvertaStdPEBold/font.woff") format("woff"); }
 
-/* Variables: Font Sizes
-- - - - - - - - - - - - - - - - - - */
+/* Variable Font Sizes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Body font size. By default 16px, based on 16px as 'root em' */
 /* Major second scale progression - see https://type-scale.com/ */
 /* Line height is set to the "Golden ratio" for optimal legibility */
@@ -82,9 +84,33 @@ h5 {
   font-family: "AvertaStdPE-Bold", Arial, Helvetica, sans-serif; }
 
 blockquote {
-  font-size: 1.1rem;
-  font-family: "AvertaStdPE-Semibold", Arial, Helvetica, sans-serif;
-  padding: 1rem; }
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem; }
+  blockquote cite {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-style: normal; }
+
+footer blockquote {
+  margin-right: 4rem;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.01em; }
+  footer blockquote cite {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #df0914; }
+    footer blockquote cite span.context {
+      margin-top: 5px;
+      display: block;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      color: #df0914; }
 
 a[class*="atm--button-"] {
   text-decoration: none; }
@@ -224,17 +250,30 @@ nav {
     .offcanvas.offcanvas-end li.current-menu-item a, .offcanvas.offcanvas-end li.current-menu-item:hover a {
       color: #df0914; } }
 
+.templ--page-main {
+  margin: 0;
+  margin-bottom: 2rem; }
+
+@media (min-width: 576px) {
+  .templ--page-main {
+    margin: 2rem 0; } }
+
+@media (min-width: 768px) {
+  .templ--page-main {
+    margin: 4rem 0; } }
+
 .home h1.large {
   font-family: "AvertaStdPE-Regular", Arial, Helvetica, sans-serif;
-  font-size: 10rem;
-  margin-bottom: 1rem; }
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  text-align: center; }
 
 .home h3 {
   margin-bottom: 2rem; }
   .home h3 span {
     line-height: 1.8;
     padding: 5px 0;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: white;
     background: #000A2B; }
 
@@ -248,6 +287,19 @@ nav {
 
 .home h4 {
   margin-bottom: 1px; }
+
+@media (min-width: 768px) {
+  .home h1.large {
+    text-align: left;
+    font-size: 10rem; }
+  .home h3 {
+    margin-bottom: 2rem; }
+    .home h3 span {
+      line-height: 1.8;
+      padding: 5px 0;
+      font-size: 2.2rem;
+      color: white;
+      background: #000A2B; } }
 
 .org--profile-header .container-fluid {
   padding: 0; }
@@ -323,8 +375,8 @@ p.atm--profile-details {
       font-family: "AvertaStdPE-Semibold", Arial, Helvetica, sans-serif; }
 
 footer {
-  background-color: rgba(0, 10, 43, 0.8);
-  padding: 6rem 0; }
+  background-color: rgba(0, 10, 43, 0.85);
+  padding: 2rem 0; }
   footer i {
     color: #fff;
     margin-right: 0.5rem; }
@@ -344,6 +396,14 @@ footer {
       footer a i:hover {
         color: #df0914; }
 
+@media (min-width: 576px) {
+  footer {
+    padding: 4rem 0; } }
+
+@media (min-width: 768px) {
+  footer {
+    padding: 6rem 0; } }
+
 .mol__unit-whoweare p {
   font-size: 2rem;
   line-height: 1.4;
@@ -353,8 +413,13 @@ footer {
   padding-right: 4rem; }
 
 .mol__unit-whoweare p.atm__copyright {
-  margin-top: 80px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 2rem;
   font-size: 0.8rem; }
+
+@media (min-width: 768px) {
+  .mol__unit-whoweare p.atm__copyright {
+    margin-top: 4rem; } }
 
 .mol__unit-contact {
   border-top: solid 1px #df0914;

@@ -1,6 +1,6 @@
 footer {
-	background-color: rgba($color--primary,0.8);
-	padding: $padding--general*3 0;
+	background-color: rgba($color--primary,0.85);
+	padding: $padding--general 0;
 	i {
 		color: $color--white;
 		margin-right: $margin--small/2;
@@ -29,6 +29,18 @@ footer {
 	}
 }
 
+@media (min-width: $media-mobile) {
+	footer {
+		padding: $padding--general*2 0;
+	}
+}
+
+@media (min-width: $media-tablet) {
+	footer {
+		padding: $padding--general*3 0;
+	}
+}
+
 .mol__unit-whoweare {
 	& p {
 		font-size: 2rem;
@@ -39,10 +51,20 @@ footer {
 		padding-right: $padding--general*2;
 	}
 	& p.atm__copyright {
- 		margin-top: 80px;
+		color: rgba($color--white,0.4);
+ 		margin-top: $padding--general;
   		font-size: 0.8rem;
 	}
 }
+
+@media (min-width: $media-tablet) {
+	.mol__unit-whoweare {
+		& p.atm__copyright {
+	 		margin-top: $padding--general*2;
+		}
+	}
+}
+
 
 .mol__unit-contact {
   border-top: solid 1px $color--highlight-dark;
