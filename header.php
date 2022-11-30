@@ -25,7 +25,7 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body <?php body_class(); ?> style="background:url(<?php the_field('bg_image','option'); ?>;">
+	<body <?php body_class(); ?> style="background:url(<?php the_field('bg_image','option'); ?>); background-position: top center;">
 		<header> 
 			<nav class="navbar navbar-expand-md navbar-offcanvas"> 
 				<div class="container">
