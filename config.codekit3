@@ -482,6 +482,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/single-entity.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-entity.php",
+      "oF" : 0
+    },
+    "\/single-product.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-product.php",
+      "oF" : 0
+    },
     "\/single.php" : {
       "cB" : 0,
       "ft" : 8192,
