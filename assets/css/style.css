@@ -71,6 +71,10 @@ body {
 a {
   transition: 0.3s; }
 
+@media (min-width: 1400px) {
+  .container-fluid {
+    padding: 0 180px; } }
+
 h2 {
   color: #000A2B;
   font-size: 4rem; }

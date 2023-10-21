@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
+		<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 		<link rel="profile" href="http://gmpg.org/xfn/11"><!-- What is this? -->
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -38,7 +38,7 @@
 	<body <?php body_class(); ?> style="background:url(<?php the_field('bg_image','option'); ?>); background-position: top center;">
 		<header> 
 			<nav class="navbar navbar-expand-md navbar-offcanvas"> 
-				<div class="container">
+				<div class="container-fluid">
 					<?php if ( is_front_page() && is_home() ) : ?>
 						<h1><?php bloginfo( 'name' ); ?></h1>
 					<?php else : ?>

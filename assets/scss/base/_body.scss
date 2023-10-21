@@ -29,3 +29,9 @@ a {
 @media (min-width: 992px) {
 
 }
+
+@media (min-width: 1400px) {
+	.container-fluid {
+		padding: 0 180px;
+	}
+}
